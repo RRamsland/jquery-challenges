@@ -23,7 +23,7 @@ $(document).ready(function(){
 	});
 
 	//$(".accordion").accordion();
-	
+	$(".nav-internal").sticky({topSpacing:'285px',className:'stuck'});
 
 	$(window).resize(function() {
         if( $(window).width() > 480 ) {  
