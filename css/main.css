@@ -118,6 +118,7 @@ a:hover {
   color: white;
   padding: 0.5em 1em;
   cursor: pointer;
+  display:block;
 }
 .panel-title:hover {
   background: #34495e;
