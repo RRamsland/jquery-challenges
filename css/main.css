@@ -71,10 +71,33 @@ a:hover {
 .nav-internal li {
   display: block;
 }
+.menu{
+  width:38px;
+  height:32px;
+  display:none;
+  clear:both;
+  margin:0 auto;
+}
+.menuContain{
+  text-align: center;
+  background: white;
+  height: 32px;
+  display:none;
+  box-shadow: 0 0 2px gray;
+}
 
 @media (max-width: 480px){
   .nav li {
     display: block;
+  }
+  .nav-main{
+    display:none;
+  }
+  .menu{
+    display:inline-block;
+  }
+  .menuContain{
+    display:block;
   }
 }
 
